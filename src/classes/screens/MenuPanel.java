@@ -15,7 +15,7 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
     private int tarX, tarY, alpha = 255;
 
     //variables
-    private boolean clicked;
+    private static boolean clicked;
 
     //menu
     private Menu menu;
@@ -47,10 +47,12 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
     @Override
     public void mouseExited(MouseEvent e) {;}
     @Override
-    public void mousePressed(MouseEvent e) {;}
+    public void mousePressed(MouseEvent e) {
+        clicked = true;
+    }
     @Override
     public void mouseReleased(MouseEvent e) {
-        clicked = true;
+        clicked = false;
     }
     @Override
     public void keyTyped(KeyEvent e) {}
@@ -86,6 +88,10 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
         requestFocus();
         powerNote.start();
         repaint();
+    }
+
+    public static void setClicked(boolean b) {
+        clicked = b;
     }
 
     @Override

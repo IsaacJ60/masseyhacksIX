@@ -26,7 +26,10 @@ public class PowerNote extends JFrame { // frame
     }
 
     public PowerNote() {
-        super("classes.PowerNote");
+        super("PowerNote");
+
+        // load all fonts
+        FontLoader.loadFonts();
 
         // TODO: get last panel from close
         currPanel = "MENU";
@@ -37,9 +40,6 @@ public class PowerNote extends JFrame { // frame
 
         menuPanel = new MenuPanel(this);
         add("MENU", menuPanel);
-
-        // load all fonts
-        FontLoader.loadFonts();
 
         pack();
 

@@ -14,7 +14,7 @@ public class FontLoader {
     public static void loadFonts() {
 
         // normal-sized font
-        String fName3 = "src\\assets\\fonts\\arcadeFont.ttf";
+        String fName3 = "arcadeFont.ttf";
         InputStream is3 = MenuPanel.class.getResourceAsStream(fName3);
         try {
             assert is3 != null;
@@ -24,6 +24,8 @@ public class FontLoader {
         } catch (FontFormatException e) {
             throw new RuntimeException(e);
         }
+
+        fontTitle = new Font(Font.SANS_SERIF,  Font.BOLD, 80);
 
     }
 }

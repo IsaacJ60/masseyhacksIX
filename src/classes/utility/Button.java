@@ -1,5 +1,7 @@
 package classes.utility;
 
+import classes.screens.MenuPanel;
+
 import java.awt.*;
 
 public class Button {
@@ -29,6 +31,7 @@ public class Button {
     public boolean clicked(int mx, int my, boolean clicked) {
         if (rect.contains(new Point(mx, my))) {
             if (clicked) {
+                MenuPanel.setClicked(false);
                 return true;
             }
         }
