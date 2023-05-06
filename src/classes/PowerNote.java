@@ -4,13 +4,13 @@ package classes;
 import javax.swing.*;
 import java.awt.*;
 
-import classes.screens.Menu;
+import classes.screens.MenuPanel;
 
 public class PowerNote extends JFrame { // frame
     CardLayout card;
 
     // all screens
-    private Menu menu;
+    private MenuPanel menuPanel;
     private String currPanel;
 
     // game dimensions
@@ -34,8 +34,8 @@ public class PowerNote extends JFrame { // frame
         card = new CardLayout();
         setLayout(card);
 
-        menu = new Menu(this);
-        add("MENU", menu);
+        menuPanel = new MenuPanel(this);
+        add("MENU", menuPanel);
 
         pack();
 
