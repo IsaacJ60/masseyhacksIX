@@ -41,7 +41,7 @@ public class Conversion {
         }
 
         try {
-            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("E:\\compsci\\mhix\\src\\assets\\text\\pptxtext.txt")));
+            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src\\assets\\text\\pptxtext.txt")));
             out.println(finalText);
             out.close();
         } catch (IOException ex) {
