@@ -6,7 +6,6 @@ import org.apache.poi.xslf.usermodel.XSLFSlide;
 import org.apache.poi.xslf.usermodel.XSLFTextShape;
 
 import classes.implement.pptdocx.TextSum;
-import org.w3c.dom.Text;
 
 import java.io.*;
 
