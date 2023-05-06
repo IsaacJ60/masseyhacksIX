@@ -5,6 +5,7 @@ import javax.swing.*;
 import java.awt.*;
 
 import classes.screens.MenuPanel;
+import classes.utility.FontLoader;
 
 public class PowerNote extends JFrame { // frame
     CardLayout card;
@@ -36,6 +37,9 @@ public class PowerNote extends JFrame { // frame
 
         menuPanel = new MenuPanel(this);
         add("MENU", menuPanel);
+
+        // load all fonts
+        FontLoader.loadFonts();
 
         pack();
 
