@@ -19,8 +19,8 @@ public class Menu {
     public Menu() {
         conversion = new Conversion();
 
-        bg_dark = new ImageIcon("src/assets/images/darkmode.jpg").getImage().getScaledInstance(1280, 720, Image.SCALE_FAST);
-        bg_light = new ImageIcon("src/assets/images/lightmode.jpg").getImage().getScaledInstance(1280, 720, Image.SCALE_FAST);
+        bg_dark = new ImageIcon("src/assets/images/darkmode.png").getImage();
+        bg_light = new ImageIcon("src/assets/images/lightmode.png").getImage();
         currBg = bg_dark;
 
         modeswitcher = new Button("modeswitcher", 50, 600, 50, 50, Color.GRAY);
@@ -45,11 +45,6 @@ public class Menu {
                 handleClick(b);
             }
         }
-
-        // drawing other things
-        g.setFont(FontLoader.fontTitle);
-        g.setColor(Color.WHITE);
-        g.drawString("PowerNote", 50, 100);
     }
 
     public void handleClick(Button b) {
