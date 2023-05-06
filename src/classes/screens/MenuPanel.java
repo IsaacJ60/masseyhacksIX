@@ -6,6 +6,7 @@ import classes.ui.Menu;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.io.IOException;
 
 public class MenuPanel extends JPanel implements KeyListener, ActionListener, MouseListener {
     Timer timer;
@@ -98,6 +99,10 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
     public void paint(Graphics g) {
         g.setColor(Color.BLACK);
         g.fillRect(0,0,WIDTH, HEIGHT);
-        menu.draw(g, tarX, tarY, clicked);
+        try {
+            menu.draw(g, tarX, tarY, clicked);
+        } catch (IOException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

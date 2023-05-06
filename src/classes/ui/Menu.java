@@ -6,6 +6,7 @@ import classes.utility.FontLoader;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Menu {
@@ -33,7 +34,7 @@ public class Menu {
         buttons.add(modeswitcher);
     }
 
-    public void draw(Graphics g, int mx, int my, boolean clicked) {
+    public void draw(Graphics g, int mx, int my, boolean clicked) throws IOException, InterruptedException {
 
         g.drawImage(currBg, 0, 0, null);
 
@@ -47,7 +48,7 @@ public class Menu {
         }
     }
 
-    public void handleClick(Button b) {
+    public void handleClick(Button b) throws IOException, InterruptedException {
         if (b.getName().equals("powerpoint")) {
             String path = fileChooser();
             if (path != null) {
