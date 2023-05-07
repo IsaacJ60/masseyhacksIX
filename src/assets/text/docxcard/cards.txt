@@ -1,20 +1,23 @@
-Front: What are the two main groups in which the animal kingdom is divided?
-Back: The two main groups in which the animal kingdom is divided are invertebrates and vertebrates.
+Front: What are the two groups that the animal kingdom is divided into?
+Back: The animal kingdom is divided into invertebrates and vertebrates.
 
-Front: What percentage of all animals do invertebrates make up?
-Back: Invertebrates make up about 98% of all animals.
+Front: What percentage of all animals are invertebrates?
+Back: 98% of all animals are invertebrates.
 
-Front: What are some characteristics that all animals share?
-Back: All animals are multicellular eukaryotes without cell walls and can have different body plans and symmetry, as well as a gut, body cavity, and differentiated tissues.
+Front: What are some characteristics that animals share?
+Back: Animals share characteristics such as being multicellular eukaryotes, heterotrophic, and lacking cell walls.
 
-Front: What are some phyla within the animal kingdom?
-Back: There are various phyla within the animal kingdom, including Porifera, Cnidaria, Platyhelminthes, Annelida, Mollusca, Arthropoda, Echinodermata, and Chordata.
+Front: How does an animal's body symmetry and body plan differ between species?
+Back: An animal's body symmetry and body plan differs between species.
 
-Front: What are the three subphyla within Chordata?
-Back: The three subphyla within Chordata are Tunicata, Cephalochordata, and Vertebrata.
+Front: What are some of the phyla of animals?
+Back: The phyla of animals discussed include porifera, cnidaria, worms, mollusks, arthropods, and echinoderms.
 
-Front: What is the characteristic of vertebrates and how are they classified?
-Back: Vertebrates have a backbone or notochord and are classified into different classes, including Agnatha, Osteichthyes, Chondrichthyes, Amphibia, Reptilia, Aves, and Mammalia.
+Front: What are some of the classes of vertebrates?
+Back: The classes of vertebrates include agnatha, osteichthyes, chondrichthyes, amphibians, reptiles, birds, and mammals.
 
-Front: What are some characteristics of mammals?
-Back: Mammals are a type of vertebrate and have certain characteristics such as being endothermic, tetrapod, (mostly) viviparous, having four-chambered hearts, hair/fur, and mammary glands.
+Front: How are the unique characteristics and features of each class described?
+Back: Each class is described in detail with their unique characteristics and features.
+
+Front: What is the overall diversity of the animal kingdom?
+Back: The animal kingdom is vast and diverse, with a wide range of species that have developed unique characteristics to fit their environment.

@@ -1,6 +1,7 @@
 import openai
 
-openai.api_key = "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"
+API_KEY = open("src\\classes\\implement\\docxcard\\API_KEY.txt", "r").read()
+openai.api_key = API_KEY
 
 chatLog = []
 

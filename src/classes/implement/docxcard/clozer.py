@@ -1,6 +1,7 @@
 import openai
 
-openai.api_key = "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"
+API_KEY = open("src\\classes\\implement\\docxcard\\API_KEY.txt", "r").read()
+openai.api_key = API_KEY
 
 with open("src\\assets\\text\\docxcard\\summarized.txt", "r") as file:
     text = file.read()
@@ -18,7 +19,6 @@ response = openai.ChatCompletion.create(
 assistantResponse = response["choices"][0]["message"]["content"]
 
 cardsTXT = open("src\\assets\\text\\docxcard\\cards.txt", "w")
-res = assistantResponse.strip("\n").strip()
 
 cardsTXT.write(assistantResponse.strip("\n").strip())
 
