@@ -1,6 +1,8 @@
 # **Imports**
 `pip install openai`
+
 `pip install genanki`
+
 `pip install uuid`
 
 # **Functionality**
