@@ -55,7 +55,7 @@ public class Conversion {
                         text.setWordWrap(false);
 
                         int font = (int)((text.getTextHeight()/usableText.length) / fontToPixel);
-                        if (font > 40 && usableText.length == 1) {
+                        if (font > 40 && usableText.length == 1 && !foundTitle) {
                             titles.add(usableText[0]);
                             foundTitle = true;
                         } else {
@@ -74,7 +74,11 @@ public class Conversion {
                 slideNum++;
                 if (!foundTitle) {
                     titles.add("");
+                    System.out.println("ADDED EMPTY");
                 }
+
+                System.out.println(titles.size());
+                System.out.println(bulletpoints.size());
             }
 
             try {

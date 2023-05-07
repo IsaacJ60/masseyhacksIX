@@ -1,127 +1,77 @@
-The Kingdom Animalia is divided into two groups: invertebrates and vertebrates, with 98% of all animals being invertebrates. Animals share common characteristics such as being multicellular eukaryotes, heterotrophic, and lacking cell walls. The body plan and symmetry of animals vary, with some having radial symmetry and others having bilateral symmetry. Different types of animal tissue include epithelial, nervous, muscle, and connective tissue. The Phylum Chordata is divided into subphyla, including Tunicata, Cephalochordata, and Vertebrata. Vertebrates have a body cavity that holds the body systems, with organs made of four types of tissue. Classes of vertebrates include Agnatha, Osteichthyes, Chondrichthyes, Amphibia, Reptilia, Aves, and Mammalia, which are diverse in morphology and habitat.
+The text discusses the processes of respiration and breathing in different organisms. Gas exchange requires special organs such as gills, lungs, and skin, which provide surface area for the acquisition and distribution of oxygen and the disposal of carbon dioxide. Aquatic respiratory organs such as gills increase surface area, but can be easily damaged or depleted of oxygen. Mammals have a more efficient respiratory system with lungs that are packed with air sacs called alveoli. The respiratory system includes the nostril, nose hair, turbinates, sinuses, pharynx, glottis, epiglottis, larynx, trachea, ciliated cells, bronchi, bronchioles, alveoli, and pleura.
 
 
 
 Main Ideas	Notes
-Animal Diversity	
-Kingdom Animalia		- Kingdom Animalia is divided into two main groups:
-- Invertebrates
-- Vertebrates
-- Invertebrates
-- An animal without a backbone.
-- About 98% of all animals are invertebrates.
+Respiration and Breathing	
+	- Maximizing the Efficiency of Respiration
+- A challenge of all organisms is the acquisition and distribution of oxygen and the disposal of carbon dioxide
+- Gas exchange requires special organs which provide intimate contact between the internal and external environment and provide enough surface area for these processes to meet the needs of the organism
 
-Kingdom Animalia		- Vertebrates
-- Only 2% of animals are vertebrates which fall into the Phylum Chordata.  This means they have a backbone or notochord (a flexible rod of nervous tissue).
+	- Gas Exchange in Animals
+- Respiration involves the diffusion of gases across plasma membranes.  
+- Plasma membranes are surrounded by water to be stable therefore oxygen from air dissolves in the aqueous layer.  
 
-Characteristics of Animals		- All animals share the following characteristics:
-- They are heterotrophic.
-- They are multicellular eukaryotes.
-- They lack cell walls.
-- Most animals:
-- Are motile.
-- Have differentiated tissues.
-- Reproduce sexually with the diploid stage dominating the life cycle.
+	- Gills as Respiratory Structures
+- Aquatic respiratory organs increase the diffusion surface area by extensions of tissue called gills
+- The great increase in surface area provided by gills allows organisms to extract oxygen from water than would be possible from their body surface alone
+- External gills increase surface area, but the organism must always be kept moving because oxygen in stagnant water can be quickly depleted.
 
-Typical Animal Life Cycle	
-Body Plan and Symmetry		- The arrangement of an animal’s body parts is called its symmetry.
-- Animals that do not have an orderly body plan are called asymmetrical.
-- Radial symmetry means that the body parts are arranged in a circle around a central point.
-- In bilateral symmetry, the body consists of two similar halves.
-
-Body Plan	- The gut is the digestive tract.
-- It enables an animal to digest food outside of its cells.
-- In animals without a gut, food is digested inside of their cells.
-- Complex animals also have a body cavity that holds the gut and other organs.
+In fish, water enters the mouth, passes over the gills, and exits through the gill cover (operculum). Countercurrent exchange between the opposing movements of water and blood maximizes diffusion of O2 in and CO2 out. 	- Gills
+- Gills are evaginated structures (outgrowths from the body) that have large surface areas over which gas exchange occurs.
+- Inside the gills, a circulatory system removes the oxygen and delivers waste CO2. 
 
 	
-Phylum Porifera	- These ‘pore bearing’ organisms are commonly known as sponges.
-- They are typically asymmetrical and lack tissues or a body cavity.
-- Adult sponges are sessile but their larvae are motile.
-- Sponges are diverse in shape but all possess a canal system through which water is pumped.  Nutrients can then diffuse into the sponge cells.  
-
-Phylum Cnidaria	- This phylum includes jellyfish, sea anemones, coral, and hydra.
-- They have radial symmetry and no body cavity.  They can be sessile or motile.
-- Cnidarians have differentiated cells that are organized into two layers of tissues and nerves that form a network.
-- Most cnidarians have cnidocytes, specialized stinging cells to capture food or defend themselves.
-
-Worms!	- Flatworms
-- Flatworms (planarians) belong to the Phylum Platyhelminthes and are the simplest animals having bilateral symmetry.
-- The have a sac-like gut but no body cavity.  They secrete digestive enzymes onto their food and suck it into their gut.
-- Roundworms 
-- Roundworms belong to the Phylum Nemotoda and 
--     are the simplest animals with a complete gut that 
--     runs from mouth to anus.
-- Segmented Worms
-- Segmented worms (earthworms) belong to the Phylum Annelida and have bodies divided into individual segments.
-- They all show bilateral symmetry and have a true 
--     body cavity.
-
-Phylum Mollusca	- Snails, clams, and squids are all members of this phylum.
-- Mollusks have bilateral symmetry and a true body cavity.
-- The body of a mollusk typically has a foot, gut, mantle, and shell.
-- Their nervous systems can range from very simple (clam) to complex (octopus).
+	- Respiration in Amphibians
+- Very unique organisms that have the ability to acquire gases through two means:  the lungs and the skin.
+- Amphibians – force air into their lungs by creating a greater-than-atmospheric pressure in the air outside their lungs.  Air is filled in their buccal cavity, they close their nose and mouth, floor of mouth is raised, and the air is forced into their lungs.
 
 	
-Phylum Arthropoda	- This phylum includes insects, spiders, and crustaceans. 
-- Arthropods have segmented bodies, jointed limbs, an exoskeleton, and well-developed organ systems.
-- Like annelids, arthropod bodies are segmented.  They have a head, thorax, and abdomen.
-
-Phylum Echinodermata		- The echinoderms include starfish, sea urchins, and sea cucumbers.
-- They have radial symmetry, a body cavity, an internal skeleton and spiny skin.
-- Echinoderms possess a water vascular system that drives respiration, circulation, and movement.  
-
-The Water Vascular System	
-Animalia Phylogenetic Tree	
-Protostomes vs Deuterostomes	
-Phylum Chordata	- All chordates have a notochord.  
-- There are three subphyla:
-- Tunicata – includes salps and sea squirts
-- Cephalochordata – includes lancelets
-- Vertebrata – includes fish, amphibians, reptiles, birds, and mammals 
-
-Phylum Chordata	
-Subphylum Vertebrata		- All vertebrates have a body cavity that holds the body systems.
-- The thoracic cavity that holds the heart and lungs.
-- The abdominal cavity that holds the digestive, excretory, and reproductive organs.
-- Vertebrate organs are made of four types of tissue:
-- Epithelial
-- Nervous
-- Muscle
-- Connective 
-
-Types of Animal Tissue	
-Class Agnatha, Osteichthyes, and Chondrichthyes	- Class Agnatha are the jawless fish.  Only two groups still exist today, the lampreys and the hagfish.
-- 2 chambered hearts
-- External fertilization and development
-
-Class Agnatha, Osteichthyes, and Chondrichthyes	- Class Chondrichthyes are the cartilaginous fish.  Members include sharks, rays, skates, sawfish, and chimaeras.  
-- 2 chambered hearts
-- External fertilization (internal for sharks) and development
+	- Respiration in Mammals
+- Mammals have higher metabolic rates to produce and sustain their body temp and thus require a more efficient respiratory system
 
 	
-Class Agnatha, Osteichthyes, and Chondrichthyes	- Class Osteichthyes are the bony fish.  They comprise the largest class of vertebrates.
-- All fish are ectothermic organisms with fins, gills, and two-chambered hearts.  Most are oviparous (lay eggs). 
-- They were the first vertebrates and first appeared about 500 million years ago.
-
-Class Amphibia	- The surviving amphibians include frogs, toads, and salamanders.
-- Most amphibians are ectothermic, (mostly) tetrapod (4 limbs), oviparous (egg laying) organisms with three-chambered hearts.  They inhabit a wide range of habitats.  They can be aquatic, terrestrial, or arboreal.
-- Amphibians display a characteristic life cycle.
-
-Amphibian Life Cycle	
-Class Reptilia	- Reptiles include turtles, crocodilians, snakes, and lizards.
-- Reptiles are ectothermic, (mostly) tetrapod, (mostly) oviparous organisms.  They generally have three-chambered hearts.  They differ from amphibians in their physical characteristics, life cycle, and the role of water in their niches. 
-
-Class Aves	- Birds are endothermic, oviparous organisms with a four-chambered heart.  They are the largest class of tetrapods.
-- Birds are also classified by the presence of feathers, beaks, unique skeletal adaptations, and a specialized breathing system.
-
-Avian Breathing System	
 	
-Class Mammalia	- Mammals are endothermic, tetrapod, (mostly) viviparous organisms (live young) with four-chambered hearts, hair/fur, and mammary glands.
-- The earliest mammals appeared about 200 million years ago.
-- Oviparous mammals include the echidna and the platypus.
-- The viviparous mammals can be loosely categorized as placental or marsupial. 
-- Mammals are very diverse in their morphology and their habitats.
+	- Flow of Air
+- Air is brought into the alveoli through a system of passages:
+
+	- Features of the respiratory system
+- Nostril – conducts air into hollow nasal cavity.
+
+	- Nose Hair
+- Nose hairs help to filter out dust and dirt particles from entering the respiratory tract
+
+Turbinates – Thin bones found in the nasal cavity that increase surface area and secrete mucous.  This helps to moisten the air.  The turbinates are lined with capillaries that warm and increase humidity of incoming air.	
+	- Sinuses 
+- Main function is to produce mucus that moisturizes the inside of the nose.
+
+Pharynx- connects the mouth to the throat	
+	- Epiglottis
+- Glottis – opening to the trachea
+
+	- Larynx
+- Larynx – houses the vocal cords.  
+
+	
+	- Trachea
+- Trachea – Flexible tube that is the passageway of air.
+- Supported by semi-circular cartilage rings to ensure it does not collapse with the passage of food in the esophagus. 
+
+	- Ciliated Cells
+- Ciliated Cells – These cells secrete mucous.  
+- The mucous traps the foreign particles. 
+
+	- Bronchi
+- Bronchi – 2 smaller branches of the of the trachea
+
+	- Alveoli
+- Alveoili – grape like clusters of tiny sacs at the end of the bronchioles. 
+- These sacs are always kept moist.  
+- This is the site of gas exchange.  
+- The sacs provide an abundance of surface area for the exchange of gases. 
+
+	- Lungs
+- Lungs are a flexible membrane that allow expansion and contraction.  The right lung has 3 lobes, and the left lung has 2 lobes.  The lungs house part of the bronchi, bronchioles and alveoli.
 
 	
 

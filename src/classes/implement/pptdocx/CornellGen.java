@@ -44,7 +44,7 @@ public class CornellGen {
             rowList[i] = table.createRow();
             rowList[i].getCell(0).setText(keyWords.get(i));
             // XWPFRun runn = rowList[i].getCell(1).getParagraphs().get(0).createRun();
-            for (int j=0;j<notes.get(i).size();j++){
+            for (int j=0;j<notes.get(i).size()-1;j++){
                 tableText(rowList[i].getCell(1).getParagraphs(), "- "+notes.get(i).get(j));
             }
             //System.out.println(runn.getText(notes[i].length-1));

@@ -1,23 +1,20 @@
-Front: What are the two groups that the animal kingdom is divided into?
-Back: The animal kingdom is divided into invertebrates and vertebrates.
+Front: What do gills, lungs, and skin provide for gas exchange?
+Back: Special organs that increase surface area for gas exchange.
 
-Front: What percentage of all animals are invertebrates?
-Back: 98% of all animals are invertebrates.
+Front: What type of animals have gills?
+Back: Aquatic animals.
 
-Front: What are some characteristics that animals share?
-Back: Animals share characteristics such as being multicellular eukaryotes, heterotrophic, and lacking cell walls.
+Front: Why can gills be easily damaged and depleted of oxygen?
+Back: Because they are external structures.
 
-Front: How does an animal's body symmetry and body plan differ between species?
-Back: An animal's body symmetry and body plan differs between species.
+Front: What is the name of the air sacs in mammalian lungs?
+Back: Alveoli.
 
-Front: What are some of the phyla of animals?
-Back: The phyla of animals discussed include porifera, cnidaria, worms, mollusks, arthropods, and echinoderms.
+Front: Why are alveoli more efficient than gills?
+Back: Because they provide an abundance of surface area for gas exchange.
 
-Front: What are some of the classes of vertebrates?
-Back: The classes of vertebrates include agnatha, osteichthyes, chondrichthyes, amphibians, reptiles, birds, and mammals.
+Front: What are the different parts of the respiratory system?
+Back: Nostrils, nose hair, turbinates, sinuses, pharynx, glottis, epiglottis, larynx, trachea, ciliated cells, bronchi, bronchioles, alveoli, and pleura.
 
-Front: How are the unique characteristics and features of each class described?
-Back: Each class is described in detail with their unique characteristics and features.
-
-Front: What is the overall diversity of the animal kingdom?
-Back: The animal kingdom is vast and diverse, with a wide range of species that have developed unique characteristics to fit their environment.
+Front: What is the function of each part of the respiratory system?
+Back: Each part has a specific function that helps maximize the efficiency of respiration.
