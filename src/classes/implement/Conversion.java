@@ -39,9 +39,8 @@ public class Conversion {
             int slideNum = 0;
 
             for (XSLFSlide slide : ppt.getSlides()) {
-                slideNum++;
                 bulletpoints.add(new ArrayList<>());
-                bulletpoints.add(new ArrayList<>());
+                boolean foundTitle = false;
                 for (XSLFShape shape : slide) {
                     if (shape instanceof XSLFTextShape) {
 
@@ -56,9 +55,10 @@ public class Conversion {
                         int font = (int)((text.getTextHeight()/usableText.length) / fontToPixel);
                         if (font > 40 && usableText.length == 1) {
                             titles.add(usableText[0]);
+                            foundTitle = true;
                         } else {
                             for (int i = 0; i < usableText.length; i++) {
-                                if (!usableText[i].equals("\n") || !usableText[i].equals(" ") || !usableText[i].equals("")) {
+                                if (!usableText[i].equals("\n") && !usableText[i].equals(" ") && !usableText[i].equals("")) {
                                     bulletpoints.get(slideNum).add(usableText[i]);
                                 }
                             }
@@ -68,6 +68,10 @@ public class Conversion {
                             finalText.append(usableText[i]).append("\n");
                         }
                     }
+                }
+                slideNum++;
+                if (!foundTitle) {
+                    titles.add("");
                 }
             }
 

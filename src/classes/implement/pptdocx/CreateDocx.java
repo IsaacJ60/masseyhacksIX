@@ -17,10 +17,10 @@ public class CreateDocx extends JPanel {
 
         if (returnResults) {
             wordfilepath = getDirectoryPath() + "\\" + filename + ".docx";
-            cornellfilepath = getDirectoryPath() + "\\" + "cornellnotes" + ".docx";
+            cornellfilepath = getDirectoryPath() + "\\" + filename + "_cornellnotes.docx";
         } else {
             wordfilepath = "src\\assets\\temp\\" + filename + ".docx";
-            cornellfilepath = "src\\assets\\temp\\cornellnotes.docx";
+            cornellfilepath = "src\\assets\\temp\\" + filename + "_cornellnotes.docx";
         }
 
         // 1 - flashcard, 2 - notes

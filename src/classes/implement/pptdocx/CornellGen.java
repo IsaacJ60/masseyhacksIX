@@ -38,6 +38,8 @@ public class CornellGen {
         titleRow1.addNewTableCell().setText("Notes");
         titleRow1.getCell(1).getParagraphs().get(0).getRuns().get(0).setBold(true);
 
+        //TODO: index out of range here
+
         for (int i=0;i<keyWords.size();i++){
             rowList[i] = table.createRow();
             rowList[i].getCell(0).setText(keyWords.get(i));
