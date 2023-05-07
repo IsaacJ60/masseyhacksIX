@@ -10,11 +10,13 @@ public class Button {
 
     private int x, y, width, height;
 
+    private Image img;
+
     private Rectangle rect;
 
     private Color color;
 
-    public Button(String name, int x, int y, int width, int height, Color col) {
+    public Button(String name, int x, int y, int width, int height, Color col, Image img) {
         this.name = name;
         this.x = x;
         this.y = y;
@@ -22,6 +24,7 @@ public class Button {
         this.height = height;
         this.color = col;
         this.rect = new Rectangle(x, y, width, height);
+        this.img = img;
     }
 
     public String getName() {
@@ -40,6 +43,8 @@ public class Button {
 
     public void draw(Graphics g) {
         g.setColor(color);
-        g.fillRect(x, y, width, height);
+        if (img != null) {
+            g.drawImage(img, x, y, null);
+        }
     }
 }

@@ -7,7 +7,9 @@ import java.io.InputStreamReader;
 
 public class TextSum {
 
-    public TextSum() throws InterruptedException, IOException {
+    CreateDocx doc;
+
+    public TextSum(String filename) throws InterruptedException, IOException {
 
         String Script_Path = "src\\classes\\implement\\pptdocx\\main.py";
         ProcessBuilder Process_Builder = new
@@ -17,13 +19,14 @@ public class TextSum {
         Process Demo_Process = Process_Builder.start();
         Demo_Process.waitFor();
 
-        BufferedReader Buffered_Reader = new BufferedReader(
-                new InputStreamReader(
-                        Demo_Process.getInputStream()
-                ));
+        BufferedReader Buffered_Reader = new BufferedReader(new InputStreamReader(Demo_Process.getInputStream()));
 
-        CreateDocx doc = new CreateDocx();
+        doc = new CreateDocx();
 
-        doc.createWord();
+        doc.createWord(filename);
+    }
+
+    public CreateDocx getDoc() {
+        return doc;
     }
 }

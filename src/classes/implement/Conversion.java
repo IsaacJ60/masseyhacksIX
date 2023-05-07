@@ -1,5 +1,7 @@
 package classes.implement;
 
+import classes.implement.docxcard.WordToCardDriver;
+import classes.ui.Menu;
 import org.apache.poi.xslf.usermodel.XMLSlideShow;
 import org.apache.poi.xslf.usermodel.XSLFShape;
 import org.apache.poi.xslf.usermodel.XSLFSlide;
@@ -11,12 +13,18 @@ import java.io.*;
 
 public class Conversion {
 
-    public Conversion() {
+    public static String powerpointToWord(String path) throws IOException, InterruptedException {
 
-    }
+        Menu.setLoading(true);
 
-    public String powerpointToWord(String path) throws IOException, InterruptedException {
-        String createdPath = "";
+        String createdPath, filename = "";
+
+        for (int i = path.length()-1; i >= 0; i--) {
+            if (path.charAt(i) == '\\') {
+                filename = path.substring(i+1, path.length()-5);
+                break;
+            }
+        }
 
         StringBuilder finalText = new StringBuilder();
 
@@ -48,19 +56,37 @@ public class Conversion {
             throw new RuntimeException(ex);
         }
 
-        TextSum textSum = new TextSum();
+        TextSum textSum = new TextSum(filename);
+
+        createdPath = textSum.getDoc().getWordfilepath();
 
         return createdPath;
     }
 
-    public String wordToCard(String path) {
+    public static String wordToCard(String path) throws IOException, InterruptedException {
+
+        Menu.setLoading(true);
+
         String createdPath = "";
 
+        String filename = "";
+
+        for (int i = path.length()-1; i >= 0; i--) {
+            if (path.charAt(i) == '\\') {
+                filename = path.substring(i+1, path.length()-5);
+                break;
+            }
+        }
+
+        WordToCardDriver wordcard = new WordToCardDriver(path, filename);
 
         return createdPath;
     }
 
-    public String powerpointToCard(String path) throws IOException, InterruptedException {
+    public static String powerpointToCard(String path) throws IOException, InterruptedException {
+
+        Menu.setLoading(true);
+
         String path1 = powerpointToWord(path);
         return wordToCard(path1);
     }

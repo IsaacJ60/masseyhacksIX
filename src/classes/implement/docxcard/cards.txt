@@ -1,0 +1,10 @@
+1. The animal kingdom is divided into {{c1::invertebrates}} and {{c2::vertebrates}}.
+2. {{c1::Invertebrates}} make up 98% of all animals.
+3. Vertebrates fall into the {{c1::Phylum Chordata}}, and have a {{c2::backbone}} or {{c3::notochord}}.
+4. All animals lack {{c1::cell walls}} and are {{c2::multicellular eukaryotes}}.
+5. Animals have different body plans and symmetry and possess a {{c1::gut}}, {{c2::body cavity}}, and {{c3::differentiated tissues}}.
+6. Various phyla within the animal kingdom include {{c1::Porifera}}, {{c2::Cnidaria}}, {{c3::Platyhelminthes}}, {{c4::Annelida}}, {{c5::Mollusca}}, {{c6::Arthropoda}}, {{c7::Echinodermata}}, and {{c8::Chordata}}.
+7. Chordata has three subphyla: {{c1::Tunicata}}, {{c2::Cephalochordata}}, and {{c3::Vertebrata}}.
+8. Vertebrates have a {{c1::body cavity}} that holds the body systems and organs made of {{c2::four types of tissue}}.
+9. Vertebrates can be classified into different classes, including {{c1::Agnatha}}, {{c2::Osteichthyes}}, {{c3::Chondrichthyes}}, {{c4::Amphibia}}, {{c5::Reptilia}}, {{c6::Aves}}, and {{c7::Mammalia}}.
+10. Mammals are {{c1::endothermic}}, {{c2::tetrapod}}, (mostly) {{c3::viviparous}} organisms with {{c4::four-chambered hearts}}, {{c5::hair/fur}}, and {{c6::mammary glands}}.
