@@ -42,7 +42,6 @@ public class PowerNote extends JFrame { // frame
         add("MENU", menuPanel);
 
         pack();
-
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE); // set X to exit
         setVisible(true); // make panel visible

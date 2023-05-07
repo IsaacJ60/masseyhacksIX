@@ -16,6 +16,8 @@ public class Conversion {
 
     public static String powerpointToWord(String path, boolean returnResults) throws IOException, InterruptedException {
 
+        System.out.println("LOADING");
+
         if (path.endsWith(".pptx")) {
             String createdPath, filename = "";
 
@@ -85,7 +87,7 @@ public class Conversion {
 
             TextSum textSum = new TextSum(filename, titles, bulletpoints, returnResults);
 
-            createdPath = textSum.getDoc().getWordfilepath();
+            createdPath = textSum.getDoc().getCornellFilePath();
 
             return createdPath;
         }
@@ -93,6 +95,8 @@ public class Conversion {
     }
 
     public static String wordToCard(String path) throws IOException, InterruptedException {
+
+        System.out.println("LOADING");
 
         if (path.endsWith(".docx")) {
             String createdPath = "";
@@ -120,5 +124,4 @@ public class Conversion {
         }
         return null;
     }
-
 }

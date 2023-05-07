@@ -42,6 +42,13 @@ public class WordToCardDriver extends JPanel {
 
         BufferedReader Buffered_Reader1 = new BufferedReader(new InputStreamReader(Demo_Process1.getInputStream()));
 
+        try {
+            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src\\assets\\text\\docxcard\\deckfilename.txt")));
+            out.println(filename);
+            out.close();
+        } catch (IOException ex) {
+            throw new RuntimeException(ex);
+        }
 
         String Script_Path2 = "src\\classes\\implement\\docxcard\\cardGeneratorCloze.py";
         ProcessBuilder Process_Builder2 = new

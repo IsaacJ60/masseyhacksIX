@@ -21,7 +21,7 @@ public class Menu {
     public Menu() {
 
         // image from https://www.flaticon.com/authors/icon-hubs
-        modeimg = new ImageIcon("src/assets/images/dark-mode.png").getImage().getScaledInstance(50,50, Image.SCALE_DEFAULT);
+        modeimg = new ImageIcon("src/assets/images/dark-mode.png").getImage().getScaledInstance(50,50, Image.SCALE_SMOOTH);
 
         df = new ImageIcon("src/assets/images/buttons/df.png").getImage();
         pd = new ImageIcon("src/assets/images/buttons/pd.png").getImage();
@@ -33,9 +33,9 @@ public class Menu {
 
         modeswitcher = new Button("modeswitcher", 20, 20, 50, 50, Color.GRAY, modeimg);
 
-        powerpoint = new Button("powerpoint", 200, 600, 200, 80, Color.RED, pd);
-        word = new Button("word", 550, 600, 200, 80, Color.BLUE, df);
-        powerpointtocard = new Button("powerpointtocard", 900, 600, 200, 80, Color.GREEN, pf);
+        powerpoint = new Button("powerpoint", 200, 550, 200, 80, Color.RED, pd);
+        word = new Button("word", 550, 550, 200, 80, Color.BLUE, df);
+        powerpointtocard = new Button("powerpointtocard", 900, 550, 200, 80, Color.GREEN, pf);
 
         buttons.add(powerpoint);
         buttons.add(word);
