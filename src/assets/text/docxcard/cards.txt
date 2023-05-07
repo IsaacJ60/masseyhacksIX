@@ -1,20 +1,17 @@
-Front: How do mammals breathe?
-Back: Mammals breathe through the movement of air through the alveoli, which are surrounded by capillaries.
+Front: What are the two main groups of animals in the Kingdom Animalia?
+Back: Invertebrates and vertebrates, with 98% of animals being invertebrates and vertebrates making up only 2%.
 
-Front: What explains how negative pressure in the lungs during inhalation allows air to enter?
-Back: Boyle's Law explains how negative pressure in the lungs during inhalation allows air to enter.
+Front: What are some characteristics of all animals?
+Back: All animals are multicellular eukaryotes, lack cell walls, and are heterotrophic.
 
-Front: What are the diaphragm and external intercostal muscles responsible for in breathing?
-Back: The diaphragm and external intercostal muscles expand thoracic volume and decrease pressure, drawing air in.
+Front: What are the three types of animal symmetry?
+Back: Asymmetrical, radial symmetry, and bilateral symmetry.
 
-Front: What is the normal tidal volume in breathing?
-Back: Normal breathing involves tidal volume of about 500 ml.
+Front: What are some examples of different body plans found in animals?
+Back: Flatworms, roundworms, segmented worms, mollusks, arthropods, and echinoderms.
 
-Front: What does vital capacity depend on?
-Back: Vital capacity depends on gender.
+Front: What are the main groups of vertebrates?
+Back: Fish, amphibians, reptiles, birds, and mammals.
 
-Front: What controls breathing rate and blood gas levels in the body?
-Back: Medulla Oblongata and chemoreceptors control breathing rate through CO2 level sensing with hypoventilation and hyperventilation occurring when blood gas levels are unbalanced.
-
-Front: What helps transport oxygen through the bloodstream?
-Back: Hemoglobin in red blood cells helps transport oxygen through the bloodstream.
+Front: Do all vertebrates have a body cavity?
+Back: Yes, all vertebrates have a body cavity that holds body systems.
