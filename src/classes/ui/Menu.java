@@ -16,19 +16,12 @@ public class Menu {
     private Button powerpoint, word, powerpointtocard;
     private Button modeswitcher;
     private Image bg_dark, bg_light, currBg, modeimg;
-    private Image loadimg;
     private Image df, pd, pf;
-    private static boolean loading;
 
     public Menu() {
 
-        loading = false;
-
         // image from https://www.flaticon.com/authors/icon-hubs
         modeimg = new ImageIcon("src/assets/images/dark-mode.png").getImage().getScaledInstance(50,50, Image.SCALE_DEFAULT);
-
-        // image from https://www.flaticon.com/authors/kerismaker
-        loadimg = new ImageIcon("src/assets/images/loading-bar.png").getImage();
 
         df = new ImageIcon("src/assets/images/buttons/df.png").getImage();
         pd = new ImageIcon("src/assets/images/buttons/pd.png").getImage();
@@ -50,10 +43,6 @@ public class Menu {
         buttons.add(modeswitcher);
     }
 
-    public static void setLoading(boolean b) {
-        loading = b;
-    }
-
     public void draw(Graphics g, int mx, int my, boolean clicked) throws IOException, InterruptedException {
 
         g.drawImage(currBg, 0, 0, null);
@@ -66,29 +55,22 @@ public class Menu {
                 handleClick(b);
             }
         }
-
-        if (loading) {
-            g.drawImage(loadimg, 200, 300, null);
-        }
     }
 
     public void handleClick(Button b) throws IOException, InterruptedException {
         if (b.getName().equals("powerpoint")) {
             String path = fileChooser();
             if (path != null) {
-                loading = true;
-                Conversion.powerpointToWord(path);
+                Conversion.powerpointToWord(path, true);
             }
         } else if (b.getName().equals("word")) {
             String path = fileChooser();
             if (path != null) {
-                loading = true;
                 Conversion.wordToCard(path);
             }
         } else if (b.getName().equals("powerpointtocard")) {
             String path = fileChooser();
             if (path != null) {
-                loading = true;
                 Conversion.powerpointToCard(path);
             }
         } else if (b.getName().equals("modeswitcher")) {
@@ -110,9 +92,4 @@ public class Menu {
         }
         return null;
     }
-
-    public void loadScreen(Graphics g) {
-        g.drawImage(loadimg, 500, 400, null);
-    }
-
 }

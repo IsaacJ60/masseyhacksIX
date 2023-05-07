@@ -53,8 +53,6 @@ public class WordToCardDriver extends JPanel {
 
         BufferedReader Buffered_Reader2 = new BufferedReader(new InputStreamReader(Demo_Process2.getInputStream()));
 
-        Menu.setLoading(false);
-
         String flashcardpath = getDirectoryPath() + "\\" + filename + ".apkg";
 
         InputStream is = null;
@@ -71,6 +69,8 @@ public class WordToCardDriver extends JPanel {
             is.close();
             os.close();
         }
+
+        JOptionPane.showMessageDialog(this, "Flashcard Files Successfully Generated");
 
     }
 
@@ -96,5 +96,4 @@ public class WordToCardDriver extends JPanel {
             return null;
         }
     }
-
 }

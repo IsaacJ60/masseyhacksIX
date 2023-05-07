@@ -14,7 +14,7 @@ response = openai.ChatCompletion.create(
 
 assistantResponse = response["choices"][0]["message"]["content"]
 
-sumTXT = open("src\\classes\\implement\\docxcard\\summarized.txt", "w")
+sumTXT = open("src\\assets\\text\\docxcard\\summarized.txt", "w")
 res = assistantResponse.strip("\n").strip()
 
 sumTXT.write(assistantResponse.strip("\n").strip())

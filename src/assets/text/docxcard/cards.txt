@@ -1,0 +1,5 @@
+1. {{c1::98%}} of all animals in the animal kingdom are {{c2::invertebrates}}.
+2. Animals are {{c1::multicellular}} {{c2::eukaryotes}} that lack cell walls.
+3. There are various phyla within the animal kingdom, and within {{c1::Chordata}}, there are {{c2::three}} subphyla.
+4. Vertebrates have a body cavity and organs made of {{c1::four}} types of tissues.
+5. Mammals are a specific class of {{c1::vertebrates}}, which are characterized by being {{c2::endothermic}} and tetrapod organisms with {{c3::hair/fur}} and {{c4::mammary glands}}.

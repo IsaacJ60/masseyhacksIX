@@ -5,7 +5,7 @@ deckID = uuid.uuid4().int & (1<<31)-1;
 
 deck = genanki.Deck(deckID, "Change Me")
 
-with open("src\\classes\\implement\\docxcard\\cards.txt", "r") as file:
+with open("src\\assets\\text\\docxcard\\cards.txt", "r") as file:
     for line in file:
         note = genanki.Note(
             model = genanki.CLOZE_MODEL,

@@ -2,7 +2,7 @@ import openai
 
 openai.api_key = "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"
 
-with open("src\\classes\\implement\\docxcard\\summarized.txt", "r") as file:
+with open("src\\assets\\text\\docxcard\\summarized.txt", "r") as file:
     text = file.read()
 
 chatLog = [{"role": "user", "content":
@@ -15,7 +15,7 @@ response = openai.ChatCompletion.create(
 
 assistantResponse = response["choices"][0]["message"]["content"]
 
-cardsTXT = open("src\\classes\\implement\\docxcard\\cards.txt", "w")
+cardsTXT = open("src\\assets\\text\\docxcard\\cards.txt", "w")
 res = assistantResponse.strip("\n").strip()
 
 cardsTXT.write(assistantResponse.strip("\n").strip())

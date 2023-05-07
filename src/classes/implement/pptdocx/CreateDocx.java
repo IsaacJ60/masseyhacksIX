@@ -1,11 +1,9 @@
 package classes.implement.pptdocx;
 
-import java.awt.*;
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
-import classes.ui.Menu;
-import classes.utility.ReadDocx;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFRun;
@@ -14,23 +12,24 @@ import javax.swing.*;
 
 public class CreateDocx extends JPanel {
     String wordfilepath;
-    public void createWord(String filename) throws IOException {
+    String cornellfilepath;
+    public void createWord(String filename, ArrayList<String> titles, ArrayList<ArrayList<String>> bulletpoints, boolean returnResults) throws IOException {
 
-        wordfilepath = getDirectoryPath() + "\\" + filename + ".docx";
-
-        System.out.println(wordfilepath);
+        if (returnResults) {
+            wordfilepath = getDirectoryPath() + "\\" + filename + ".docx";
+            cornellfilepath = getDirectoryPath() + "\\" + "cornellnotes" + ".docx";
+        } else {
+            wordfilepath = "src\\assets\\temp\\" + filename + ".docx";
+            cornellfilepath = "src\\assets\\temp\\cornellnotes.docx";
+        }
 
         // 1 - flashcard, 2 - notes
         XWPFDocument document1 = new XWPFDocument();
-        XWPFDocument document2 = new XWPFDocument();
         FileOutputStream out1 = new FileOutputStream(new File(wordfilepath));
-        FileOutputStream out2 = new FileOutputStream(new File("src/assets/text/notes2.docx"));
 
         XWPFParagraph paragraph1 = document1.createParagraph();
         XWPFRun run1 = paragraph1.createRun();
 
-        XWPFParagraph paragraph2 = document2.createParagraph();
-        XWPFRun run2 = paragraph2.createRun();
         String text = "";
         try {
             Scanner f = new Scanner(new BufferedReader(new FileReader("src\\assets\\text\\pptxsummarized.txt")));
@@ -50,7 +49,11 @@ public class CreateDocx extends JPanel {
         document1.write(out1);
         out1.close();
 
-        Menu.setLoading(false);
+        CornellGen cornellnotes = new CornellGen(titles, bulletpoints, text, cornellfilepath);
+
+        if (returnResults) {
+            JOptionPane.showMessageDialog(this, "Word Files Successfully Generated");
+        }
     }
 
     public String getWordfilepath() {
