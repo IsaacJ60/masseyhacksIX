@@ -1,88 +1,75 @@
-Respiration and Breathing
+The Dynamic Process of Breathing
+Mechanics and Transport
+In mammals, inspired air travels through to the alveolus.
+Each alveolus is composed of epithelium that is once cell thick and is surrounded by blood capillaries that are also once cell thick. This allows for diffusion of gasses to occur.
+There are about 30 billion capillaries in both lungs, or about 100 capillaries per alveolus.
+Think of the alveolus as a microscopic air bubble whose entire surface is bathed in blood.
+Remember….
+Air is drawn into the lungs by the creation of a negative or sub-atmospheric pressure
+In accordance with Boyle’s Law, when the volume of a given quantity of gas increases, its pressure decreases
+This occurs because the volume of the thorax is increased during inspiration (inhalation), and the lungs expand.
+When the pressure within the lungs is lower than the atmospheric pressure, air enters the lungs. 
+Mechanics of 
+Breathing
+Thoracic volume is increased with help of TWO muscles – diaphragm and external intercostal muscles
+Contraction of the intercostal muscles causes the  rib cage to expand and raises the rib cage. 
+Contraction of the diaphragm causes it to lower and assume a more flattened shape.
+This increases volume and decreases pressure of lungs causing air to be drawn in
+Mechanics of Breathing (Inhalation)
+Relaxation of external intercostal muscles and diaphragm produces unforced exhalation.
+The diaphragm relaxes and moves up
+External intercostals relax the ribs and they move down and in causing the volume in the lungs to decrease and pressure increases allowing air to exit
+Mechanics of Breathing (exhalation)
+Tidal volume – lung volume representing the normal volume of air that is displaced between normal inhalation and exhalation when extra effort is not applied.
+In a healthy person tidal volume is about 500 ml of air into and out of the lungs
 
-Maximizing the Efficiency of Respiration
-A challenge of all organisms is the acquisition and distribution of oxygen and the disposal of carbon dioxide
-Gas exchange requires special organs which provide intimate contact between the internal and external environment and provide enough surface area for these processes to meet the needs of the organism
-Respiration – generally means the uptake of oxygen and disposal of carbon dioxide.  This occurs through a detailed process called cellular respiration where oxygen is needed by cells to use as the final electron acceptor in the production of ATP and carbon dioxide is produced.  
-Gas Exchange in Animals
-Respiration involves the diffusion of gases across plasma membranes.  
-Plasma membranes are surrounded by water to be stable therefore oxygen from air dissolves in the aqueous layer.  
-Primitive invertebrates lack special respiratory organs but have developed means to keep their respiratory surfaces moist.  Ex. Earth worm
-Gills as Respiratory Structures
-Aquatic respiratory organs increase the diffusion surface area by extensions of tissue called gills
-The great increase in surface area provided by gills allows organisms to extract oxygen from water than would be possible from their body surface alone
-External gills increase surface area, but the organism must always be kept moving because oxygen in stagnant water can be quickly depleted.
-The external gills are also easily damaged
-Gills
-Gills are evaginated structures (outgrowths from the body) that have large surface areas over which gas exchange occurs.
-Inside the gills, a circulatory system removes the oxygen and delivers waste CO2. 
-In some animals, such as Polychaete worms (Annelids), the gills are external and unprotected.  In other animals such as fish, gills are internal and protected.
+Vital capacity – the maximum amount of air that can be expired after a forceful maximum inspiration.
+Tidal Volume can be calculated using the following equations:
 
-In fish, water enters the mouth, passes over the gills, and exits through the gill cover (operculum). Countercurrent exchange between the opposing movements of water and blood maximizes diffusion of O2 in and CO2 out. 
+Tidal volume + inspiratory reserve volume + expiratory Reserve volume = vital capacity
 
+Avg for men = 4.6 L	Avg for women = 3.1 L
+Measuring Breathing
+Inspired Reserve volume – additional air taken in above tidal inhalation (deep breath in)
+Expiratory reserve volume – additional air that can be forced out beyond regular tidal exhalation.
+Measuring Breathing
+Normal rate of breathing is 12 – 20 breaths per minute.  
 
-Respiration in Amphibians
-Very unique organisms that have the ability to acquire gases through two means:  the lungs and the skin.
-Amphibians – force air into their lungs by creating a greater-than-atmospheric pressure in the air outside their lungs.  Air is filled in their buccal cavity, they close their nose and mouth, floor of mouth is raised, and the air is forced into their lungs.
-Skin must be kept moist for diffusion to take place.  This is particularly important for times of hibernation when some burrow under mud at the bottom of ponds
-Respiration in Mammals
-Mammals have higher metabolic rates to produce and sustain their body temp and thus require a more efficient respiratory system
-Lungs of mammals are packed with million of tiny air sacs called alveoli providing an enormous surface area for gas exchange
-Flow of Air
-Air is brought into the alveoli through a system of passages:
-
-Mouth/Nose  pharynx  larynx  trachea  bronchi  bronchioles  alveoli
-Features of the respiratory system
-Nostril – conducts air into hollow nasal cavity.
--best way to intake air as it cleans and purifies air through this passage.
-
-Nose Hair
-Nose hairs help to filter out dust and dirt particles from entering the respiratory tract
-Hairs are covered in mucus that trap particles as they are breathed in
-
-Turbinates – Thin bones found in the nasal cavity that increase surface area and secrete mucous.  This helps to moisten the air.  The turbinates are lined with capillaries that warm and increase humidity of incoming air.
-
-Sinuses 
-Main function is to produce mucus that moisturizes the inside of the nose.
-The mucus layer protects the nose from pollutants, micro-organisms, dust and dirt
-Pharynx
-Pharynx- connects the mouth to the throat
-Epiglottis
-Glottis – opening to the trachea
-Epiglottis – flap of cartilage located behind the tongue that helps prevent food from entering trachea
-
-
-
-Larynx
-Larynx – houses the vocal cords.  
-There are two folded structures of the vocal cords.  When you breathe normally there is a large gap between the cords.  When you speak, muscles contract bringing cords closer.  The air that passes through them vibrates the cords producing sound.
-
-
-Trachea
-Trachea – Flexible tube that is the passageway of air.
-Supported by semi-circular cartilage rings to ensure it does not collapse with the passage of food in the esophagus. 
-lined with ciliated cells that secrete mucous.   
-Ciliated Cells
-Ciliated Cells – These cells secrete mucous.  
-The mucous traps the foreign particles. 
-Continual sweeping of the cilia propels these particles back to the nose and throat where they can be expelled.
-
-
-
-Bronchi
-Bronchi – 2 smaller branches of the of the trachea
-Bronchioles – tiny subdivisions of the bronchi
-Alveoli
-Alveoili – grape like clusters of tiny sacs at the end of the bronchioles. 
-These sacs are always kept moist.  
-This is the site of gas exchange.  
-The sacs provide an abundance of surface area for the exchange of gases. 
-They are surrounded by capillaries.
+CO2 levels control breathing rate.  
+The Medulla Oblongata senses CO2 levels and when they increase, a signal is sent to the lungs and diaphragm to increase breathing rate.  
+There are also chemoreceptors that detect low O2 partial pressures in the blood.  If the O2 partial pressure is really low the medulla oblongata triggers a response.  There are specific blood gas measurements that have to be maintained.  If there is a discrepancy the brain will signal a response.
+Breathing Rate and Control
 
 
 
 
-Lungs
-Lungs are a flexible membrane that allow expansion and contraction.  The right lung has 3 lobes, and the left lung has 2 lobes.  The lungs house part of the bronchi, bronchioles and alveoli.
-The pleura is a layer of tissue that envelopes the lungs.  It is a flexible membrane that allows the lungs to expand and contract.  Each pleuron is made up of two layers separated by a film of lubricating fluid.  
+Hypo means “below”
+Occurs when ventilation is inadequate to perform needed gas exchange.
+If there is an increased [CO2] (hypercapnia) in the blood the brain signals for shallow and slow breathing.  This rids of excess CO2 and regulates the blood gases
+Breath holding can help to regulate breathing rate
+Hypoventilation
+A.k.a overbreathing
+If there is a decreased [CO2]in the blood the brain will signal for deep and rapid breathing.  You will feel as though you cannot get enough oxygen and start to breath really quickly.  Due to decreased CO2 there will be numbness, tingling and dizziness.
+Breathing into a paper bag forces a person to breathe in carbon dioxide rather than loose more to the atmosphere helping to restore blood gas levels.
+https://www.youtube.com/watch?v=p97HeXx0vN0&t=61s
+Hyperventilation
+The amount of oxygen that can be dissolved in the blood plasma depends directly on the PO2 of the air in the alveoli. 
+Because of oxygen’s low solubility in water, blood plasma can only carry so much oxygen.  
+In order to carry the amount of oxygen needed for the body there needs to be additional help.
+This help comes from a specialized structure found in the RBC – the hemoglobin
+Hemoglobin and Gas Transport
+Hemoglobin is a protein composed of four polypeptide chains and four organic compounds called heme groups. 
+ At the centre of the heme group is an atom of iron which can bind to one molecule of oxygen.
+Hemoglobin and Gas Transport
+Therefore each hemoglobin can carry 4 oxygen molecules.
+Hemoglobin links up with oxygen in the lungs forming oxyhemoglobin (bright red in colour).  
+As the blood passes through capillaries it releases some oxygen becoming deoxyhemoglobin (dark red colour).  
+Because of this colour change, vessels that carry oxygenated blood are always depicted as red and those that carry oxygen depleted blood are depicted as blue.
+https://www.youtube.com/watch?v=WXOBJEXxNEo
+Hemoglobin and Gas Transport
+About 8% of removed CO2 in the blood is simply dissolved in plasma; another 20% is bound to hemoglobin on the protein portion not the heme group.  Therefore there is no competition for the oxygen spots.
+The remaining 72% diffuses into RBC’s and through a reaction is turned into carbonic acid and is later diffused out.  This accounts for the pH of the blood
+Hemoglobin and Gas Transport
+https://www.youtube.com/watch?v=PlNEabFZ5Qk
+The Process of Breathing
 

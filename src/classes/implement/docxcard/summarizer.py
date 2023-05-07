@@ -3,7 +3,7 @@ import openai
 API_KEY = open("src\\classes\\implement\\docxcard\\API_KEY.txt", "r").read()
 openai.api_key = API_KEY
 
-with open("src\\assets\\text\\input.txt", "r") as file:
+with open("src\\assets\\text\\input.txt", "r", errors="ignore") as file:
     text = file.read()
 
 chatLog = [{

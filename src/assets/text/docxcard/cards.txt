@@ -1,20 +1,20 @@
-Front: What do gills, lungs, and skin provide for gas exchange?
-Back: Special organs that increase surface area for gas exchange.
+Front: How do mammals breathe?
+Back: Mammals breathe through the movement of air through the alveoli, which are surrounded by capillaries.
 
-Front: What type of animals have gills?
-Back: Aquatic animals.
+Front: What explains how negative pressure in the lungs during inhalation allows air to enter?
+Back: Boyle's Law explains how negative pressure in the lungs during inhalation allows air to enter.
 
-Front: Why can gills be easily damaged and depleted of oxygen?
-Back: Because they are external structures.
+Front: What are the diaphragm and external intercostal muscles responsible for in breathing?
+Back: The diaphragm and external intercostal muscles expand thoracic volume and decrease pressure, drawing air in.
 
-Front: What is the name of the air sacs in mammalian lungs?
-Back: Alveoli.
+Front: What is the normal tidal volume in breathing?
+Back: Normal breathing involves tidal volume of about 500 ml.
 
-Front: Why are alveoli more efficient than gills?
-Back: Because they provide an abundance of surface area for gas exchange.
+Front: What does vital capacity depend on?
+Back: Vital capacity depends on gender.
 
-Front: What are the different parts of the respiratory system?
-Back: Nostrils, nose hair, turbinates, sinuses, pharynx, glottis, epiglottis, larynx, trachea, ciliated cells, bronchi, bronchioles, alveoli, and pleura.
+Front: What controls breathing rate and blood gas levels in the body?
+Back: Medulla Oblongata and chemoreceptors control breathing rate through CO2 level sensing with hypoventilation and hyperventilation occurring when blood gas levels are unbalanced.
 
-Front: What is the function of each part of the respiratory system?
-Back: Each part has a specific function that helps maximize the efficiency of respiration.
+Front: What helps transport oxygen through the bloodstream?
+Back: Hemoglobin in red blood cells helps transport oxygen through the bloodstream.
