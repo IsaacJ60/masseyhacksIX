@@ -1,6 +1,7 @@
 package classes.ui;
 
 import classes.implement.Conversion;
+import classes.screens.MenuPanel;
 import classes.utility.Button;
 import classes.utility.FontLoader;
 import org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource;
@@ -13,12 +14,19 @@ import java.util.ArrayList;
 public class Menu {
 
     private ArrayList<Button> buttons = new ArrayList<>();
+    private static String type;
     private Button powerpoint, word, powerpointtocard;
-    private Button modeswitcher;
+    private Button modeswitcher, settingsbutton;
     private Image bg_dark, bg_light, currBg, modeimg;
     private Image df, pd, pf;
 
+    public static void setType(String s) {
+        type = s;
+    }
+
     public Menu() {
+
+        type = "basic";
 
         // image from https://www.flaticon.com/authors/icon-hubs
         modeimg = new ImageIcon("src/assets/images/dark-mode.png").getImage().getScaledInstance(50,50, Image.SCALE_SMOOTH);
@@ -32,6 +40,7 @@ public class Menu {
         currBg = bg_dark;
 
         modeswitcher = new Button("modeswitcher", 20, 20, 50, 50, Color.GRAY, modeimg);
+        settingsbutton = new Button("settingsbutton", 1210, 20, 50, 50, Color.GRAY, modeimg);
 
         powerpoint = new Button("powerpoint", 200, 550, 200, 80, Color.RED, pd);
         word = new Button("word", 550, 550, 200, 80, Color.BLUE, df);
@@ -41,9 +50,10 @@ public class Menu {
         buttons.add(word);
         buttons.add(powerpointtocard);
         buttons.add(modeswitcher);
+        buttons.add(settingsbutton);
     }
 
-    public void draw(Graphics g, int mx, int my, boolean clicked) throws IOException, InterruptedException {
+    public void draw(Graphics g, int mx, int my, boolean clicked, MenuPanel menu) throws IOException, InterruptedException {
 
         g.drawImage(currBg, 0, 0, null);
 
@@ -52,12 +62,12 @@ public class Menu {
             b.draw(g);
 
             if (b.clicked(mx, my, clicked)) {
-                handleClick(b);
+                handleClick(b, menu);
             }
         }
     }
 
-    public void handleClick(Button b) throws IOException, InterruptedException {
+    public void handleClick(Button b, MenuPanel menu) throws IOException, InterruptedException {
         if (b.getName().equals("powerpoint")) {
             String path = fileChooser();
             if (path != null) {
@@ -66,12 +76,12 @@ public class Menu {
         } else if (b.getName().equals("word")) {
             String path = fileChooser();
             if (path != null) {
-                Conversion.wordToCard(path);
+                Conversion.wordToCard(path, type);
             }
         } else if (b.getName().equals("powerpointtocard")) {
             String path = fileChooser();
             if (path != null) {
-                Conversion.powerpointToCard(path);
+                Conversion.powerpointToCard(path, type);
             }
         } else if (b.getName().equals("modeswitcher")) {
             if (currBg == bg_dark) {
@@ -79,6 +89,8 @@ public class Menu {
             } else {
                 currBg = bg_dark;
             }
+        } else if (b.getName().equals("settingsbutton")) {
+            menu.setOpensettings(true);
         }
     }
 

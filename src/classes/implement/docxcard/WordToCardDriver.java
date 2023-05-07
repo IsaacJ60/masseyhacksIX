@@ -9,7 +9,7 @@ import java.io.*;
 
 public class WordToCardDriver extends JPanel {
 
-    public WordToCardDriver(String path, String filename) throws InterruptedException, IOException {
+    public WordToCardDriver(String path, String filename, String type) throws InterruptedException, IOException {
 
         String text = ReadDocx.readDocx(path);
 
@@ -31,34 +31,65 @@ public class WordToCardDriver extends JPanel {
 
         BufferedReader Buffered_Reader0 = new BufferedReader(new InputStreamReader(Demo_Process0.getInputStream()));
 
+        if (type.equals("clozer")) {
+            String Script_Path1 = "src\\classes\\implement\\docxcard\\clozer.py";
+            ProcessBuilder Process_Builder1 = new
+                    ProcessBuilder("python",Script_Path1)
+                    .inheritIO();
 
-        String Script_Path1 = "src\\classes\\implement\\docxcard\\clozer.py";
-        ProcessBuilder Process_Builder1 = new
-                ProcessBuilder("python",Script_Path1)
-                .inheritIO();
+            Process Demo_Process1 = Process_Builder1.start();
+            Demo_Process1.waitFor();
 
-        Process Demo_Process1 = Process_Builder1.start();
-        Demo_Process1.waitFor();
+            BufferedReader Buffered_Reader1 = new BufferedReader(new InputStreamReader(Demo_Process1.getInputStream()));
 
-        BufferedReader Buffered_Reader1 = new BufferedReader(new InputStreamReader(Demo_Process1.getInputStream()));
+            try {
+                PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src\\assets\\text\\docxcard\\deckfilename.txt")));
+                out.println(filename);
+                out.close();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
 
-        try {
-            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src\\assets\\text\\docxcard\\deckfilename.txt")));
-            out.println(filename);
-            out.close();
-        } catch (IOException ex) {
-            throw new RuntimeException(ex);
+            String Script_Path2 = "src\\classes\\implement\\docxcard\\cardGeneratorCloze.py";
+            ProcessBuilder Process_Builder2 = new
+                    ProcessBuilder("python",Script_Path2)
+                    .inheritIO();
+
+            Process Demo_Process2 = Process_Builder2.start();
+            Demo_Process2.waitFor();
+
+            BufferedReader Buffered_Reader2 = new BufferedReader(new InputStreamReader(Demo_Process2.getInputStream()));
+
+        } else if (type.equals("basic")) {
+
+            String Script_Path1 = "src\\classes\\implement\\docxcard\\basicer.py";
+            ProcessBuilder Process_Builder1 = new
+                    ProcessBuilder("python",Script_Path1)
+                    .inheritIO();
+
+            Process Demo_Process1 = Process_Builder1.start();
+            Demo_Process1.waitFor();
+
+            BufferedReader Buffered_Reader1 = new BufferedReader(new InputStreamReader(Demo_Process1.getInputStream()));
+
+            try {
+                PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("src\\assets\\text\\docxcard\\deckfilename.txt")));
+                out.println(filename);
+                out.close();
+            } catch (IOException ex) {
+                throw new RuntimeException(ex);
+            }
+
+            String Script_Path2 = "src\\classes\\implement\\docxcard\\cardGeneratorBasic.py";
+            ProcessBuilder Process_Builder2 = new
+                    ProcessBuilder("python",Script_Path2)
+                    .inheritIO();
+
+            Process Demo_Process2 = Process_Builder2.start();
+            Demo_Process2.waitFor();
+
+            BufferedReader Buffered_Reader2 = new BufferedReader(new InputStreamReader(Demo_Process2.getInputStream()));
         }
-
-        String Script_Path2 = "src\\classes\\implement\\docxcard\\cardGeneratorCloze.py";
-        ProcessBuilder Process_Builder2 = new
-                ProcessBuilder("python",Script_Path2)
-                .inheritIO();
-
-        Process Demo_Process2 = Process_Builder2.start();
-        Demo_Process2.waitFor();
-
-        BufferedReader Buffered_Reader2 = new BufferedReader(new InputStreamReader(Demo_Process2.getInputStream()));
 
         String flashcardpath = getDirectoryPath() + "\\" + filename + ".apkg";
 

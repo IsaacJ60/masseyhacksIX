@@ -2,6 +2,7 @@ package classes.screens;
 
 import classes.PowerNote;
 import classes.ui.Menu;
+import classes.ui.Settings;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,6 +13,8 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
     Timer timer;
     PowerNote powerNote;
     private boolean[] keys;
+
+    private boolean opensettings;
     private int WIDTH, HEIGHT;
     private int tarX, tarY, alpha = 255;
 
@@ -20,6 +23,8 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
 
     //menu
     private Menu menu;
+
+    private Settings settings;
 
     public MenuPanel(PowerNote a) {
         powerNote = a;
@@ -34,7 +39,11 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
         WIDTH = powerNote.getWIDTH();
         HEIGHT = powerNote.getHEIGHT();
 
+        opensettings = false;
+
         menu = new Menu();
+
+        settings = new Settings();
 
         timer = new Timer(25, this); // manages frames
         timer.start();
@@ -95,14 +104,27 @@ public class MenuPanel extends JPanel implements KeyListener, ActionListener, Mo
         clicked = b;
     }
 
+    public void setOpensettings(boolean b) {
+        opensettings = b;
+    }
+
     @Override
     public void paint(Graphics g) {
         g.setColor(Color.BLACK);
         g.fillRect(0,0,WIDTH, HEIGHT);
         try {
-            menu.draw(g, tarX, tarY, clicked);
+            menu.draw(g, tarX, tarY, clicked, this);
         } catch (IOException | InterruptedException e) {
             throw new RuntimeException(e);
+        }
+        if (opensettings) {
+            try {
+                settings.draw(g, tarX, tarY, clicked, this);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 }

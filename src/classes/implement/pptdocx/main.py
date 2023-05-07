@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 chatLog = []
 

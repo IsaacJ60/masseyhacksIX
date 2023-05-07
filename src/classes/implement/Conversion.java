@@ -94,7 +94,7 @@ public class Conversion {
         return null;
     }
 
-    public static String wordToCard(String path) throws IOException, InterruptedException {
+    public static String wordToCard(String path, String type) throws IOException, InterruptedException {
 
         System.out.println("LOADING");
 
@@ -110,17 +110,17 @@ public class Conversion {
                 }
             }
 
-            WordToCardDriver wordcard = new WordToCardDriver(path, filename);
+            WordToCardDriver wordcard = new WordToCardDriver(path, filename, type);
 
             return createdPath;
         }
         return null;
     }
 
-    public static String powerpointToCard(String path) throws IOException, InterruptedException {
+    public static String powerpointToCard(String path, String type) throws IOException, InterruptedException {
         if (path.endsWith(".pptx")) {
             String path1 = powerpointToWord(path, false);
-            return wordToCard(path1);
+            return wordToCard(path1, type);
         }
         return null;
     }

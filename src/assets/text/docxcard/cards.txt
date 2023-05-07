@@ -1,7 +1,20 @@
-1. The animal kingdom can be divided into {{c1::invertebrates}} and {{c2::vertebrates}}.
-2. All animals share certain characteristics, including being {{c1::multicellular}} eukaryotes and lacking {{c2::cell walls}}.
-3. Within the animal kingdom, there are various {{c1::phyla}}, including {{c2::Porifera}}, {{c3::Cnidaria}}, {{c4::Platyhelminthes}}, {{c5::Annelida}}, {{c6::Mollusca}}, {{c7::Arthropoda}}, {{c8::Echinodermata}}, and {{c9::Chordata}}.
-4. Vertebrates fall under the Phylum {{c1::Chordata}} and can be classified into different {{c2::classes}}, including {{c3::Agnatha}}, {{c4::Osteichthyes}}, {{c5::Chondrichthyes}}, {{c6::Amphibia}}, {{c7::Reptilia}}, {{c8::Aves}}, and {{c9::Mammalia}}.
-5. Within Chordata, there are three {{c1::subphyla}}, including {{c2::Tunicata}}, {{c3::Cephalochordata}}, and {{c4::Vertebrata}}.
-6. Vertebrates have a {{c1::body cavity}} that holds the body systems and organs made of {{c2::four types}} of tissue.
-7. Mammals are {{c1::endothermic, tetrapod, (mostly) viviparous}} organisms with {{c2::four-chambered hearts}}, {{c3::hair/fur}}, and {{c4::mammary glands}}.
+Front: What are the two main groups in which the animal kingdom is divided?
+Back: The two main groups in which the animal kingdom is divided are invertebrates and vertebrates.
+
+Front: What percentage of all animals do invertebrates make up?
+Back: Invertebrates make up about 98% of all animals.
+
+Front: What are some characteristics that all animals share?
+Back: All animals are multicellular eukaryotes without cell walls and can have different body plans and symmetry, as well as a gut, body cavity, and differentiated tissues.
+
+Front: What are some phyla within the animal kingdom?
+Back: There are various phyla within the animal kingdom, including Porifera, Cnidaria, Platyhelminthes, Annelida, Mollusca, Arthropoda, Echinodermata, and Chordata.
+
+Front: What are the three subphyla within Chordata?
+Back: The three subphyla within Chordata are Tunicata, Cephalochordata, and Vertebrata.
+
+Front: What is the characteristic of vertebrates and how are they classified?
+Back: Vertebrates have a backbone or notochord and are classified into different classes, including Agnatha, Osteichthyes, Chondrichthyes, Amphibia, Reptilia, Aves, and Mammalia.
+
+Front: What are some characteristics of mammals?
+Back: Mammals are a type of vertebrate and have certain characteristics such as being endothermic, tetrapod, (mostly) viviparous, having four-chambered hearts, hair/fur, and mammary glands.
